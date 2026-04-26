@@ -1,0 +1,151 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="blog-header">
+  <div class="container">
+    <h1>Blog</h1>
+    <p>Deep-dive articles on machine learning research, systems design, and engineering best practices</p>
+  </div>
+</div>
+
+<div class="container blog-container">
+  <div class="posts-full">
+    {% for post in site.posts %}
+      <article class="post-full">
+        <header class="post-header">
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <div class="post-meta">
+            <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+            {% if post.categories %}
+              <div class="post-categories">
+                {% for category in post.categories %}
+                  <span class="category-tag">{{ category }}</span>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </header>
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+        </div>
+        <a href="{{ post.url }}" class="read-more">Read Full Article →</a>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .blog-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .blog-header h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+  }
+
+  .blog-header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+  }
+
+  .blog-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+
+  .posts-full {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .post-full {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 40px;
+  }
+
+  .post-full:last-child {
+    border-bottom: none;
+  }
+
+  .post-header {
+    margin-bottom: 20px;
+  }
+
+  .post-header h2 {
+    margin: 0 0 15px 0;
+    font-size: 2em;
+  }
+
+  .post-header h2 a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .post-header h2 a:hover {
+    color: #667eea;
+  }
+
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .post-date {
+    color: #999;
+    font-size: 0.95em;
+  }
+
+  .post-categories {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .category-tag {
+    background-color: #f0f0f0;
+    color: #667eea;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    font-weight: 500;
+  }
+
+  .post-excerpt {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.05em;
+  }
+
+  .read-more {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .read-more:hover {
+    color: #764ba2;
+    margin-right: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .blog-header h1 {
+      font-size: 2em;
+    }
+
+    .post-header h2 {
+      font-size: 1.5em;
+    }
+  }
+</style>
