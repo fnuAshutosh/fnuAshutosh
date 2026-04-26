@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashutosh%20Roy-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ashutosh-roy95/)
 [![GitHub](https://img.shields.io/badge/GitHub-fnuAshutosh-181717?style=flat-square&logo=github)](https://github.com/fnuAshutosh)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail)](mailto:ashutosh.roy@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=flat-square&logo=gmail)](mailto:ashutosh925@gmail.com)
 
 [📖 Read My Blog](https://fnuashutosh.github.io/blog) | [📂 View Projects](#featured-projects) | [📄 Download CV](https://fnuashutosh.github.io/cv)
 
