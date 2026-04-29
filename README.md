@@ -1,4 +1,4 @@
-# Fnu Ashutosh
+# Ashutosh
 
 <div align="center">
 
@@ -99,7 +99,7 @@ I'm interested in collaborating on:
 
 ## 📫 Get In Touch
 
-- **LinkedIn:** [Ashutosh Roy](https://www.linkedin.com/in/ashutosh-roy95/)
+- **LinkedIn:** [Ashutosh .](https://www.linkedin.com/in/ashutosh-roy95/)
 - **GitHub:** [fnuAshutosh](https://github.com/fnuAshutosh)
 - **Website:** [fnuashutosh.github.io](https://fnuashutosh.github.io/)
 - **Email:** ashutosh925@gmail.com
