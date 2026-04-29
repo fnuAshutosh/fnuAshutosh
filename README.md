@@ -102,7 +102,7 @@ I'm interested in collaborating on:
 - **LinkedIn:** [Ashutosh Roy](https://www.linkedin.com/in/ashutosh-roy95/)
 - **GitHub:** [fnuAshutosh](https://github.com/fnuAshutosh)
 - **Website:** [fnuashutosh.github.io](https://fnuashutosh.github.io/)
-- **Email:** ashutosh.roy@example.com
+- **Email:** ashutosh925@gmail.com
 
 ---
 
