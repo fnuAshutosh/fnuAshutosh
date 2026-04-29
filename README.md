@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### Research Engineer | ML/AI Enthusiast | ML Engineer & Backend Systems Developer | MS Data Science, Pace University (May 2026)
+### ML Engineer & Backend Systems Developer | MS Data Science, Pace University (May 2026)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashutosh%20Roy-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ashutosh-roy95/)
 [![GitHub](https://img.shields.io/badge/GitHub-fnuAshutosh-181717?style=flat-square&logo=github)](https://github.com/fnuAshutosh)
